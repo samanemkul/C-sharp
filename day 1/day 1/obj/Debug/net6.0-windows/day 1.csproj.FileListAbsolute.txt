@@ -1,0 +1,17 @@
+D:\C-sharp\day 1\day 1\bin\Debug\net6.0-windows\day 1.exe
+D:\C-sharp\day 1\day 1\bin\Debug\net6.0-windows\day 1.deps.json
+D:\C-sharp\day 1\day 1\bin\Debug\net6.0-windows\day 1.runtimeconfig.json
+D:\C-sharp\day 1\day 1\bin\Debug\net6.0-windows\day 1.dll
+D:\C-sharp\day 1\day 1\bin\Debug\net6.0-windows\day 1.pdb
+D:\C-sharp\day 1\day 1\obj\Debug\net6.0-windows\day 1.csproj.AssemblyReference.cache
+D:\C-sharp\day 1\day 1\obj\Debug\net6.0-windows\day_1.Form1.resources
+D:\C-sharp\day 1\day 1\obj\Debug\net6.0-windows\day 1.csproj.GenerateResource.cache
+D:\C-sharp\day 1\day 1\obj\Debug\net6.0-windows\day 1.GeneratedMSBuildEditorConfig.editorconfig
+D:\C-sharp\day 1\day 1\obj\Debug\net6.0-windows\day 1.AssemblyInfoInputs.cache
+D:\C-sharp\day 1\day 1\obj\Debug\net6.0-windows\day 1.AssemblyInfo.cs
+D:\C-sharp\day 1\day 1\obj\Debug\net6.0-windows\day 1.csproj.CoreCompileInputs.cache
+D:\C-sharp\day 1\day 1\obj\Debug\net6.0-windows\day 1.dll
+D:\C-sharp\day 1\day 1\obj\Debug\net6.0-windows\refint\day 1.dll
+D:\C-sharp\day 1\day 1\obj\Debug\net6.0-windows\day 1.pdb
+D:\C-sharp\day 1\day 1\obj\Debug\net6.0-windows\day 1.genruntimeconfig.cache
+D:\C-sharp\day 1\day 1\obj\Debug\net6.0-windows\ref\day 1.dll
