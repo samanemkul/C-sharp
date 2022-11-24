@@ -2,11 +2,19 @@ namespace Calculator
 {
     public partial class Form1 : Form
     {
+        string operate = "";
+        decimal calculation = 0;
         public Form1()
         {
             InitializeComponent();
         }
-
+        public void GetResultValue()
+        {
+            if (Result.Text != "" && Result.Text != "+" && Result.Text != "-" && Result.Text != "*" && Result.Text != "/") ;
+            {
+                calculation = Convert.ToDecimal(Result.Text);
+            }
+        }
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             //string data1 = textBox1.Text;
@@ -79,6 +87,8 @@ namespace Calculator
         }
         private void button12_Click(object sender, EventArgs e)
         {
+            GetResultValue();
+            operate = "+";
             Result.Text = "+";
         }
 
@@ -89,16 +99,22 @@ namespace Calculator
 
         private void button13_Click(object sender, EventArgs e)
         {
+            GetResultValue();
+            operate = "-";
             Result.Text = "-";
         }
 
         private void button14_Click(object sender, EventArgs e)
         {
+            GetResultValue();
+            operate = "*";
             Result.Text = "*";
         }
 
         private void button15_Click(object sender, EventArgs e)
         {
+            GetResultValue();
+            operate = "/";
             Result.Text = "/";
         }
     }
