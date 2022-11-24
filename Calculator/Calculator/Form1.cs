@@ -25,65 +25,154 @@ namespace Calculator
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            string data = Result.Text;
-            Result.Text = data + "1";
+            if(Result.Text =="+"|| Result.Text =="-" || Result.Text=="*"|| Result.Text=="/")
+            {
+                Result.Text = "1";  
+            }
+            else
+            {
+                string data = Result.Text;
+                Result.Text = data + "1";
+            }
         }
         private void button2_Click_1(object sender, EventArgs e)
         {
-            string data1 = Result.Text;
-            Result.Text = data1 + "2";
+            if (Result.Text == "+" || Result.Text == "-" || Result.Text == "*" || Result.Text == "/")
+            {
+                Result.Text = "2";
+            }
+            else
+            {
+                string data = Result.Text;
+                Result.Text = data + "2";
+            }
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            string data2 = Result.Text;
-            Result.Text = data2 + "3";
+            if (Result.Text == "+" || Result.Text == "-" || Result.Text == "*" || Result.Text == "/")
+            {
+                Result.Text = "3";
+            }
+            else
+            {
+                string data = Result.Text;
+                Result.Text = data + "3";
+            }
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            string data3 = Result.Text;
-            Result.Text = data3 + "4";
+            if (Result.Text == "+" || Result.Text == "-" || Result.Text == "*" || Result.Text == "/")
+            {
+                Result.Text = "4";
+            }
+            else
+            {
+                string data = Result.Text;
+                Result.Text = data + "4";
+            }
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            string data4 = Result.Text;
-            Result.Text = data4 + "5";
+            if (Result.Text == "+" || Result.Text == "-" || Result.Text == "*" || Result.Text == "/")
+            {
+                Result.Text = "5";
+            }
+            else
+            {
+                string data = Result.Text;
+                Result.Text = data + "5";
+            }
         }
-
         private void button6_Click(object sender, EventArgs e)
         {
-            string data5 = Result.Text;
-            Result.Text = data5 + "6";
+            if (Result.Text == "+" || Result.Text == "-" || Result.Text == "*" || Result.Text == "/")
+            {
+                Result.Text = "6";
+            }
+            else
+            {
+                string data = Result.Text;
+                Result.Text = data + "6";
+            }
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            string data6 = Result.Text;
-            Result.Text = data6 + "7";
+            if (Result.Text == "+" || Result.Text == "-" || Result.Text == "*" || Result.Text == "/")
+            {
+                Result.Text = "7";
+            }
+            else
+            {
+                string data = Result.Text;
+                Result.Text = data + "7";
+            }
         }
-
         private void button8_Click(object sender, EventArgs e)
         {
-            string data7 = Result.Text;
-            Result.Text = data7 + "8";
+            if (Result.Text == "+" || Result.Text == "-" || Result.Text == "*" || Result.Text == "/")
+            {
+                Result.Text = "8";
+            }
+            else
+            {
+                string data = Result.Text;
+                Result.Text = data + "8";
+            }
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-            string data8 = Result.Text;
-            Result.Text = data8 + "9";
+            if (Result.Text == "+" || Result.Text == "-" || Result.Text == "*" || Result.Text == "/")
+            {
+                Result.Text = "9";
+            }
+            else
+            {
+                string data = Result.Text;
+                Result.Text = data + "9";
+            }
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
-            string data9 = Result.Text;
-            Result.Text = data9 +"0";
+            if (Result.Text == "+" || Result.Text == "-" || Result.Text == "*" || Result.Text == "/")
+            {
+                Result.Text = "0";
+            }
+            else
+            {
+                string data = Result.Text;
+                Result.Text = data + "0";
+            }
         }
         private void button11_Click(object sender, EventArgs e)
         {
-
+            decimal firstNum = calculation;
+            decimal secondNum = Convert.ToDecimal(Result.Text);
+            switch(operate)
+            {
+                case "+":
+                    calculation = (firstNum + secondNum);   
+                    Result.Text = calculation.ToString();
+                    break;
+                case "-":
+                    calculation = (firstNum - secondNum);
+                    Result.Text = calculation.ToString();
+                    break;
+                case "*":
+                    calculation = (firstNum * secondNum);
+                    Result.Text = calculation.ToString();
+                    break;
+                case "/":
+                    calculation = (firstNum / secondNum);
+                    Result.Text = calculation.ToString();
+                    break;
+            }
+             
         }
         private void button12_Click(object sender, EventArgs e)
         {
