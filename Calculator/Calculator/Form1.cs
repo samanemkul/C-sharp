@@ -206,5 +206,12 @@ namespace Calculator
             operate = "/";
             Result.Text = "/";
         }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            this.Hide();//hide the previous form
+            Form2 object_name = new Form2();
+            object_name.Show();//show new form
+        }
     }
 }
