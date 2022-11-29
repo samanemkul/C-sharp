@@ -252,5 +252,32 @@ namespace Calculator
                 MessageBox.Show("Error:" + ex.InnerException);
             }
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            dataGridView1.Rows.Add(textBox2.Text, textBox3.Text, textBox4.Text);//to add row in datagrid view using textbox
+            dataGridView1.Rows.Add("1", "Romiya", "ktm");//to add row in datagrid view
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            // dataGridView1.Sort(dataGridView1.Columns[1], System.ComponentModel.ListSortDirection.Ascending);
+            
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
-}
+} 
