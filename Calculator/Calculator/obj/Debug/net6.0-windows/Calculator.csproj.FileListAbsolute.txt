@@ -41,3 +41,29 @@ D:\C-sharp\C-sharp\Calculator\Calculator\bin\Debug\net6.0-windows\runtimes\win-x
 D:\C-sharp\C-sharp\Calculator\Calculator\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\C-sharp\C-sharp\Calculator\Calculator\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\C-sharp\C-sharp\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.csproj.CopyComplete
+C:\c sharp project\C-sharp\Calculator\Calculator\bin\Debug\net6.0-windows\Calculator.exe
+C:\c sharp project\C-sharp\Calculator\Calculator\bin\Debug\net6.0-windows\Calculator.deps.json
+C:\c sharp project\C-sharp\Calculator\Calculator\bin\Debug\net6.0-windows\Calculator.runtimeconfig.json
+C:\c sharp project\C-sharp\Calculator\Calculator\bin\Debug\net6.0-windows\Calculator.dll
+C:\c sharp project\C-sharp\Calculator\Calculator\bin\Debug\net6.0-windows\Calculator.pdb
+C:\c sharp project\C-sharp\Calculator\Calculator\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\c sharp project\C-sharp\Calculator\Calculator\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\c sharp project\C-sharp\Calculator\Calculator\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\c sharp project\C-sharp\Calculator\Calculator\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\c sharp project\C-sharp\Calculator\Calculator\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\c sharp project\C-sharp\Calculator\Calculator\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\c sharp project\C-sharp\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.csproj.AssemblyReference.cache
+C:\c sharp project\C-sharp\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.Form1.resources
+C:\c sharp project\C-sharp\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.Form2.resources
+C:\c sharp project\C-sharp\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.Properties.Resources.resources
+C:\c sharp project\C-sharp\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.csproj.GenerateResource.cache
+C:\c sharp project\C-sharp\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\c sharp project\C-sharp\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.AssemblyInfoInputs.cache
+C:\c sharp project\C-sharp\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.AssemblyInfo.cs
+C:\c sharp project\C-sharp\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.csproj.CoreCompileInputs.cache
+C:\c sharp project\C-sharp\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.csproj.CopyComplete
+C:\c sharp project\C-sharp\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.dll
+C:\c sharp project\C-sharp\Calculator\Calculator\obj\Debug\net6.0-windows\refint\Calculator.dll
+C:\c sharp project\C-sharp\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.pdb
+C:\c sharp project\C-sharp\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.genruntimeconfig.cache
+C:\c sharp project\C-sharp\Calculator\Calculator\obj\Debug\net6.0-windows\ref\Calculator.dll
