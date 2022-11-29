@@ -223,7 +223,7 @@ namespace Calculator
             try
             {
                 con.Open();
-                string query = "Insert into student values('Romiya','ktm','9851120098','kist')";
+                string query = "Insert into student values('Sandip','ktm','9851120098','kist')";// Insert query
                 SqlCommand cmd = new SqlCommand(query, con);
                 cmd.ExecuteNonQuery();//query run garne kam
                 MessageBox.Show("Saved Successfully");
@@ -235,5 +235,22 @@ namespace Calculator
             }
         }
 
+        private void button18_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                con.Open();
+                string query = "update student set name='ram' where id='14'";//Update query
+                MessageBox.Show("Updated Successfully");
+                SqlCommand cmd = con.CreateCommand();
+                cmd.CommandText = query;    
+                cmd.ExecuteNonQuery();
+                con.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error:" + ex.InnerException);
+            }
+        }
     }
 }
