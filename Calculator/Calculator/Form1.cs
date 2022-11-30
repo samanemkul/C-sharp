@@ -223,7 +223,7 @@ namespace Calculator
             try
             {
                 con.Open();
-                string query = "Insert into student values('Romiya','ktm','9851120098','kist')";
+                string query = "Insert into student values('Sandip','ktm','9851120098','kist')";// Insert query
                 SqlCommand cmd = new SqlCommand(query, con);
                 cmd.ExecuteNonQuery();//query run garne kam
                 MessageBox.Show("Saved Successfully");
@@ -235,5 +235,54 @@ namespace Calculator
             }
         }
 
+        private void button18_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                con.Open();
+                string query = "update student set name='ram' where id='14'";//Update query
+                MessageBox.Show("Updated Successfully");
+                SqlCommand cmd = con.CreateCommand();
+                cmd.CommandText = query;    
+                cmd.ExecuteNonQuery();
+                con.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error:" + ex.InnerException);
+            }
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            dataGridView1.Rows.Add(textBox2.Text, textBox3.Text, textBox4.Text);//to add row in datagrid view using textbox
+            dataGridView1.Rows.Add("1", "Romiya", "ktm");//to add row in datagrid view
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            // dataGridView1.Sort(dataGridView1.Columns[1], System.ComponentModel.ListSortDirection.Ascending);
+            
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button21_Click(object sender, EventArgs e)
+        {
+
+        }
     }
-}
+} 
