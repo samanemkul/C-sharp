@@ -82,5 +82,22 @@ namespace Employee_2
             MessageBox.Show("Delete successfully");
             con.Close();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            string query = "select * from emp";
+            SqlCommand command = new SqlCommand(query, con);    
+            SqlDataAdapter adapter = new SqlDataAdapter(command);
+            DataTable table = new DataTable();  
+            adapter.Fill(table);
+            int sn = 1;
+            for(int i = 0; i < table.Rows.Count; i++)
+            {
+                string name = table.Rows[i]["name"].ToString();
+                string address = table.Rows[i]["address"].ToString();
+                string salary = table.Rows[i]["salary"].ToString ();
+                dataGridView1.Rows.Add(sn++, name, address, salary);
+            }
+        }
     }
 }
