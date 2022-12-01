@@ -17,7 +17,7 @@ namespace Employee_2
         {
             con.Open();
             string query = "Insert into emp values('" + txtUserName.Text
-                + "','" + txtUserName.Text + "','" + txtUserSalary.Text + "')";
+                + "','" + txtUserAddr.Text + "','" + txtUserSalary.Text + "')";
             SqlCommand cmd = new SqlCommand(query, con);
             cmd.ExecuteNonQuery();
             MessageBox.Show("saved successfully");
