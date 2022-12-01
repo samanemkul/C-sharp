@@ -50,5 +50,26 @@ namespace Employee_2
 
             con.Close();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            con.Open();
+
+            string query = "update emp set name='" + txtUserName.Text + "', address='" + txtUserAddr.Text + "' ,salary ='" + txtUserSalary.Text + "' where id = '" + txtUserID.Text + "' ";
+            SqlCommand cmd = new SqlCommand(query, con);
+            cmd.ExecuteNonQuery();
+            MessageBox.Show("Update successfully");
+            con.Close();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            con.Open();
+            string query = "delete from emp where id = '" + txtUserID.Text + "'";
+            SqlCommand cmd = new SqlCommand(query, con);
+            cmd.ExecuteNonQuery();
+            MessageBox.Show("Delete successfully");
+            con.Close();
+        }
     }
 }

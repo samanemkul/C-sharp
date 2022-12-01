@@ -36,6 +36,10 @@
             this.txtUserName = new System.Windows.Forms.TextBox();
             this.txtUserAddr = new System.Windows.Forms.TextBox();
             this.txtUserSalary = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtUserID = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -50,7 +54,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(191, 57);
+            this.button1.Location = new System.Drawing.Point(175, 333);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 1;
@@ -60,42 +64,44 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(272, 57);
+            this.button2.Location = new System.Drawing.Point(256, 333);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 2;
-            this.button2.Text = "button2";
+            this.button2.Text = "Display";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(353, 57);
+            this.button3.Location = new System.Drawing.Point(337, 333);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 3;
-            this.button3.Text = "button3";
+            this.button3.Text = "Update";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(445, 57);
+            this.button4.Location = new System.Drawing.Point(433, 334);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 4;
-            this.button4.Text = "button4";
+            this.button4.Text = "delete";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // txtUserName
             // 
-            this.txtUserName.Location = new System.Drawing.Point(191, 334);
+            this.txtUserName.Location = new System.Drawing.Point(175, 58);
             this.txtUserName.Name = "txtUserName";
             this.txtUserName.Size = new System.Drawing.Size(100, 23);
             this.txtUserName.TabIndex = 5;
             // 
             // txtUserAddr
             // 
-            this.txtUserAddr.Location = new System.Drawing.Point(297, 334);
+            this.txtUserAddr.Location = new System.Drawing.Point(281, 57);
             this.txtUserAddr.Name = "txtUserAddr";
             this.txtUserAddr.Size = new System.Drawing.Size(100, 23);
             this.txtUserAddr.TabIndex = 5;
@@ -103,16 +109,54 @@
             // 
             // txtUserSalary
             // 
-            this.txtUserSalary.Location = new System.Drawing.Point(403, 334);
+            this.txtUserSalary.Location = new System.Drawing.Point(408, 58);
             this.txtUserSalary.Name = "txtUserSalary";
             this.txtUserSalary.Size = new System.Drawing.Size(100, 23);
             this.txtUserSalary.TabIndex = 5;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(175, 40);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(39, 15);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Name";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(293, 40);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(49, 15);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Address";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(418, 41);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(38, 15);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "Salary";
+            // 
+            // txtUserID
+            // 
+            this.txtUserID.Location = new System.Drawing.Point(514, 333);
+            this.txtUserID.Name = "txtUserID";
+            this.txtUserID.Size = new System.Drawing.Size(100, 23);
+            this.txtUserID.TabIndex = 9;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtUserID);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.txtUserSalary);
             this.Controls.Add(this.txtUserAddr);
             this.Controls.Add(this.txtUserName);
@@ -139,5 +183,9 @@
         private TextBox txtUserName;
         private TextBox txtUserAddr;
         private TextBox txtUserSalary;
+        private Label label1;
+        private Label label2;
+        private Label label3;
+        private TextBox txtUserID;
     }
 }
