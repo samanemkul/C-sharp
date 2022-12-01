@@ -16,13 +16,24 @@ namespace Employee_2
         private void button1_Click(object sender, EventArgs e)
         {
             con.Open();
-            string query = "Insert into emp values('" + txtUserName.Text
-                + "','" + txtUserAddr.Text + "','" + txtUserSalary.Text + "')";
-            SqlCommand cmd = new SqlCommand(query, con);
-            cmd.ExecuteNonQuery();
+            // string query = "Insert into emp values('" + txtUserName.Text
+            // SqlCommand cmd = new SqlCommand(query, con);
+            //cmd.ExecuteNonQuery();
             MessageBox.Show("saved successfully");
+            // con.Close();
+
+            string query = "Insert into emp" +
+                "(name,address,salary)" +
+                "values(@name,@address,@salary)";
+            SqlCommand cmd = con.CreateCommand();
+            cmd.CommandText = query;
+            cmd.Parameters.AddWithValue("@name",txtUserName.Text);
+            cmd.Parameters.AddWithValue("@address",txtUserAddr.Text);
+            cmd.Parameters.AddWithValue("@salary",txtUserSalary.Text);
+            cmd. ExecuteNonQuery();
             con.Close();
         }
+       
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
