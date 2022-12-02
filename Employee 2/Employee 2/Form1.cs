@@ -5,7 +5,7 @@ namespace Employee_2
 {
     public partial class Form1 : Form
     {
-        private SqlConnection con = new SqlConnection(@"Data Source = DESKTOP-M895AMJ\SQLEXPRESS;
+        System.Data.SqlClient.SqlConnection con = new SqlConnection(@"Data Source = .\SQLEXPRESS;
                                                 Initial Catalog=emp_details;
                                                 Integrated Security=True");
         public Form1()
@@ -19,7 +19,6 @@ namespace Employee_2
             // string query = "Insert into emp values('" + txtUserName.Text
             // SqlCommand cmd = new SqlCommand(query, con);
             //cmd.ExecuteNonQuery();
-            MessageBox.Show("saved successfully");
             // con.Close();
 
             string query = "Insert into emp" +
@@ -32,8 +31,10 @@ namespace Employee_2
             cmd.Parameters.AddWithValue("@salary",txtUserSalary.Text);
             cmd. ExecuteNonQuery();
             con.Close();
+            MessageBox.Show("saved successfully");
+
         }
-       
+
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
@@ -42,7 +43,7 @@ namespace Employee_2
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string ConnectionString = (@"Data Source =DESKTOP-M895AMJ\SQLEXPRESS ;
+            string ConnectionString = (@"Data Source =.\SQLEXPRESS ;
                                                 Initial Catalog=emp_details;
                                                 Integrated Security=True");
             SqlConnection con = new SqlConnection(ConnectionString);
@@ -98,6 +99,24 @@ namespace Employee_2
                 string salary = table.Rows[i]["salary"].ToString ();
                 dataGridView1.Rows.Add(sn++, name, address, salary);
             }
+        }
+
+        private void txtUserName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            DataGridViewRow data = dataGridView1.CurrentRow;
+            string name = data.Cells["name"].Value.ToString();
+            string address = data.Cells["address"].Value.ToString();
+            string salary = data.Cells["salary"].Value.ToString();
+            MessageBox.Show("Selected name:"+ name);
+
+            txtUserName.Text = name;
+            txtUserAddr.Text = address;
+            txtUserSalary.Text = salary;
         }
     }
 }
