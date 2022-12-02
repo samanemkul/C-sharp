@@ -22,33 +22,6 @@ D:\C-sharp\Employee 2\Employee 2\obj\Debug\net6.0-windows\refint\Employee 2.dll
 D:\C-sharp\Employee 2\Employee 2\obj\Debug\net6.0-windows\Employee 2.pdb
 D:\C-sharp\Employee 2\Employee 2\obj\Debug\net6.0-windows\Employee 2.genruntimeconfig.cache
 D:\C-sharp\Employee 2\Employee 2\obj\Debug\net6.0-windows\ref\Employee 2.dll
-<<<<<<< HEAD
-C:\c sharp project\C-sharp\Employee 2\Employee 2\bin\Debug\net6.0-windows\Employee 2.exe
-C:\c sharp project\C-sharp\Employee 2\Employee 2\bin\Debug\net6.0-windows\Employee 2.deps.json
-C:\c sharp project\C-sharp\Employee 2\Employee 2\bin\Debug\net6.0-windows\Employee 2.runtimeconfig.json
-C:\c sharp project\C-sharp\Employee 2\Employee 2\bin\Debug\net6.0-windows\Employee 2.dll
-C:\c sharp project\C-sharp\Employee 2\Employee 2\bin\Debug\net6.0-windows\Employee 2.pdb
-C:\c sharp project\C-sharp\Employee 2\Employee 2\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
-C:\c sharp project\C-sharp\Employee 2\Employee 2\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
-C:\c sharp project\C-sharp\Employee 2\Employee 2\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
-C:\c sharp project\C-sharp\Employee 2\Employee 2\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
-C:\c sharp project\C-sharp\Employee 2\Employee 2\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\c sharp project\C-sharp\Employee 2\Employee 2\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\c sharp project\C-sharp\Employee 2\Employee 2\obj\Debug\net6.0-windows\Employee 2.csproj.AssemblyReference.cache
-C:\c sharp project\C-sharp\Employee 2\Employee 2\obj\Debug\net6.0-windows\Employee_2.Form1.resources
-C:\c sharp project\C-sharp\Employee 2\Employee 2\obj\Debug\net6.0-windows\Employee 2.csproj.GenerateResource.cache
-C:\c sharp project\C-sharp\Employee 2\Employee 2\obj\Debug\net6.0-windows\Employee 2.GeneratedMSBuildEditorConfig.editorconfig
-C:\c sharp project\C-sharp\Employee 2\Employee 2\obj\Debug\net6.0-windows\Employee 2.AssemblyInfoInputs.cache
-C:\c sharp project\C-sharp\Employee 2\Employee 2\obj\Debug\net6.0-windows\Employee 2.AssemblyInfo.cs
-C:\c sharp project\C-sharp\Employee 2\Employee 2\obj\Debug\net6.0-windows\Employee 2.csproj.CoreCompileInputs.cache
-C:\c sharp project\C-sharp\Employee 2\Employee 2\obj\Debug\net6.0-windows\Employee 2.csproj.CopyComplete
-C:\c sharp project\C-sharp\Employee 2\Employee 2\obj\Debug\net6.0-windows\Employee 2.dll
-C:\c sharp project\C-sharp\Employee 2\Employee 2\obj\Debug\net6.0-windows\refint\Employee 2.dll
-C:\c sharp project\C-sharp\Employee 2\Employee 2\obj\Debug\net6.0-windows\Employee 2.pdb
-C:\c sharp project\C-sharp\Employee 2\Employee 2\obj\Debug\net6.0-windows\Employee 2.genruntimeconfig.cache
-C:\c sharp project\C-sharp\Employee 2\Employee 2\obj\Debug\net6.0-windows\ref\Employee 2.dll
-C:\c sharp project\C-sharp\Employee 2\Employee 2\obj\Debug\net6.0-windows\Employee_2.Form2.resources
-=======
 D:\C-sharp\C-sharp\Employee 2\Employee 2\bin\Debug\net6.0-windows\Employee 2.exe
 D:\C-sharp\C-sharp\Employee 2\Employee 2\bin\Debug\net6.0-windows\Employee 2.deps.json
 D:\C-sharp\C-sharp\Employee 2\Employee 2\bin\Debug\net6.0-windows\Employee 2.runtimeconfig.json
@@ -73,4 +46,3 @@ D:\C-sharp\C-sharp\Employee 2\Employee 2\obj\Debug\net6.0-windows\refint\Employe
 D:\C-sharp\C-sharp\Employee 2\Employee 2\obj\Debug\net6.0-windows\Employee 2.pdb
 D:\C-sharp\C-sharp\Employee 2\Employee 2\obj\Debug\net6.0-windows\Employee 2.genruntimeconfig.cache
 D:\C-sharp\C-sharp\Employee 2\Employee 2\obj\Debug\net6.0-windows\ref\Employee 2.dll
->>>>>>> d840932802ac2a051c7db1b8f549c318991682fc

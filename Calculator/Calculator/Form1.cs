@@ -279,10 +279,5 @@ namespace Calculator
         {
 
         }
-
-        private void button21_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 } 
