@@ -42,7 +42,7 @@ namespace Employee_2
         //Button Display
         private void button2_Click(object sender, EventArgs e)
         {
-            string ConnectionString = (@"Data Source =DESKTOP-M895AMJ\SQLEXPRESS ;
+            /*string ConnectionString = (@"Data Source =DESKTOP-M895AMJ\SQLEXPRESS ;
                                                 Initial Catalog=emp_details;
                                                 Integrated Security=True");
             con.Open();
@@ -53,7 +53,7 @@ namespace Employee_2
             table.Load(reader);
             dataGridView1.DataSource = table;
             con.Close();
-*/
+            */
             /*string ConnectionString = (@"Data Source =.\SQLEXPRESS ;
                                                 Initial Catalog=emp_details;
                                                 Integrated Security=True");
