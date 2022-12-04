@@ -46,6 +46,9 @@ D:\C-sharp\C-sharp\Employee 2\Employee 2\obj\Debug\net6.0-windows\refint\Employe
 D:\C-sharp\C-sharp\Employee 2\Employee 2\obj\Debug\net6.0-windows\Employee 2.pdb
 D:\C-sharp\C-sharp\Employee 2\Employee 2\obj\Debug\net6.0-windows\Employee 2.genruntimeconfig.cache
 D:\C-sharp\C-sharp\Employee 2\Employee 2\obj\Debug\net6.0-windows\ref\Employee 2.dll
+<<<<<<< HEAD
+D:\C-sharp\C-sharp\Employee 2\Employee 2\obj\Debug\net6.0-windows\Employee_2.Form2.resources
+=======
 C:\c sharp\C-sharp\Employee 2\Employee 2\bin\Debug\net6.0-windows\Employee 2.exe
 C:\c sharp\C-sharp\Employee 2\Employee 2\bin\Debug\net6.0-windows\Employee 2.deps.json
 C:\c sharp\C-sharp\Employee 2\Employee 2\bin\Debug\net6.0-windows\Employee 2.runtimeconfig.json
@@ -71,3 +74,4 @@ C:\c sharp\C-sharp\Employee 2\Employee 2\obj\Debug\net6.0-windows\refint\Employe
 C:\c sharp\C-sharp\Employee 2\Employee 2\obj\Debug\net6.0-windows\Employee 2.pdb
 C:\c sharp\C-sharp\Employee 2\Employee 2\obj\Debug\net6.0-windows\Employee 2.genruntimeconfig.cache
 C:\c sharp\C-sharp\Employee 2\Employee 2\obj\Debug\net6.0-windows\ref\Employee 2.dll
+>>>>>>> 29ee434e111fb84a2895b0370786968af530f9e7
