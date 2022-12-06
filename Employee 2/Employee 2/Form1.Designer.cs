@@ -42,10 +42,10 @@
             this.button5 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.sn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.address = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.salary = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -56,10 +56,10 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.sn,
+            this.ID,
             this.name,
             this.address,
-            this.salary,
-            this.ID});
+            this.salary});
             this.dataGridView1.Location = new System.Drawing.Point(11, 79);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
@@ -185,6 +185,13 @@
             this.sn.ReadOnly = true;
             this.sn.Width = 150;
             // 
+            // ID
+            // 
+            this.ID.HeaderText = "ID";
+            this.ID.Name = "ID";
+            this.ID.ReadOnly = true;
+            this.ID.Visible = false;
+            // 
             // name
             // 
             this.name.HeaderText = "Name";
@@ -208,13 +215,6 @@
             this.salary.Name = "salary";
             this.salary.ReadOnly = true;
             this.salary.Width = 150;
-            // 
-            // ID
-            // 
-            this.ID.HeaderText = "ID";
-            this.ID.Name = "ID";
-            this.ID.ReadOnly = true;
-            this.ID.Visible = false;
             // 
             // Form1
             // 
@@ -260,9 +260,9 @@
         private Button button5;
         private Label label4;
         private DataGridViewTextBoxColumn sn;
+        private DataGridViewTextBoxColumn ID;
         private DataGridViewTextBoxColumn name;
         private DataGridViewTextBoxColumn address;
         private DataGridViewTextBoxColumn salary;
-        private DataGridViewTextBoxColumn ID;
     }
 }
