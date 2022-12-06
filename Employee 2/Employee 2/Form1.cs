@@ -119,7 +119,7 @@ namespace Employee_2
                 string name = table.Rows[i]["name"].ToString();
                 string address = table.Rows[i]["address"].ToString();
                 string salary = table.Rows[i]["salary"].ToString ();
-                dataGridView1.Rows.Add(sn++, name, address, salary);
+                dataGridView1.Rows.Add(sn++,id, name, address, salary);
             }
         }
 
@@ -129,7 +129,7 @@ namespace Employee_2
             string name = data.Cells["name"].Value.ToString();
             string address = data.Cells["address"].Value.ToString();
             string salary = data.Cells["salary"].Value.ToString();
-            MessageBox.Show("Selected name: " + name);
+            MessageBox.Show("Selected name: " + name); 
             MessageBox.Show("Selected address: " + address);
             MessageBox.Show("Selected salary: " + salary);
 
