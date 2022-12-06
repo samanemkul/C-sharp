@@ -29,11 +29,6 @@
         private void InitializeComponent()
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.sn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.address = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.salary = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -46,6 +41,11 @@
             this.txtUserID = new System.Windows.Forms.TextBox();
             this.button5 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
+            this.sn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.address = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.salary = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -56,57 +56,18 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.sn,
-            this.ID,
             this.name,
             this.address,
-            this.salary});
-            this.dataGridView1.Location = new System.Drawing.Point(8, 80);
+            this.salary,
+            this.ID});
+            this.dataGridView1.Location = new System.Drawing.Point(11, 79);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 25;
-            this.dataGridView1.Size = new System.Drawing.Size(314, 130);
+            this.dataGridView1.Size = new System.Drawing.Size(669, 130);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // sn
-            // 
-            this.sn.HeaderText = "SN";
-            this.sn.MinimumWidth = 8;
-            this.sn.Name = "sn";
-            this.sn.ReadOnly = true;
-            this.sn.Width = 150;
-            // 
-            // ID
-            // 
-            this.ID.HeaderText = "ID";
-            this.ID.Name = "ID";
-            this.ID.ReadOnly = true;
-            this.ID.Visible = false;
-            // 
-            // name
-            // 
-            this.name.HeaderText = "Name";
-            this.name.MinimumWidth = 8;
-            this.name.Name = "name";
-            this.name.ReadOnly = true;
-            this.name.Width = 150;
-            // 
-            // address
-            // 
-            this.address.HeaderText = "Address";
-            this.address.MinimumWidth = 8;
-            this.address.Name = "address";
-            this.address.ReadOnly = true;
-            this.address.Width = 150;
-            // 
-            // salary
-            // 
-            this.salary.HeaderText = "salary";
-            this.salary.MinimumWidth = 8;
-            this.salary.Name = "salary";
-            this.salary.ReadOnly = true;
-            this.salary.Width = 150;
             // 
             // button1
             // 
@@ -157,7 +118,7 @@
             // 
             this.txtUserSalary.Location = new System.Drawing.Point(231, 42);
             this.txtUserSalary.Name = "txtUserSalary";
-            this.txtUserSalary.Size = new System.Drawing.Size(95, 23);
+            this.txtUserSalary.Size = new System.Drawing.Size(169, 23);
             this.txtUserSalary.TabIndex = 5;
             // 
             // label1
@@ -215,6 +176,46 @@
             this.label4.TabIndex = 8;
             this.label4.Text = "ID";
             // 
+            // sn
+            // 
+            this.sn.HeaderText = "SN";
+            this.sn.MaxInputLength = 32760;
+            this.sn.MinimumWidth = 8;
+            this.sn.Name = "sn";
+            this.sn.ReadOnly = true;
+            this.sn.Width = 150;
+            // 
+            // name
+            // 
+            this.name.HeaderText = "Name";
+            this.name.MinimumWidth = 8;
+            this.name.Name = "name";
+            this.name.ReadOnly = true;
+            this.name.Width = 150;
+            // 
+            // address
+            // 
+            this.address.HeaderText = "Address";
+            this.address.MinimumWidth = 8;
+            this.address.Name = "address";
+            this.address.ReadOnly = true;
+            this.address.Width = 150;
+            // 
+            // salary
+            // 
+            this.salary.HeaderText = "salary";
+            this.salary.MinimumWidth = 8;
+            this.salary.Name = "salary";
+            this.salary.ReadOnly = true;
+            this.salary.Width = 150;
+            // 
+            // ID
+            // 
+            this.ID.HeaderText = "ID";
+            this.ID.Name = "ID";
+            this.ID.ReadOnly = true;
+            this.ID.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -259,10 +260,9 @@
         private Button button5;
         private Label label4;
         private DataGridViewTextBoxColumn sn;
-        private DataGridViewTextBoxColumn ID;
         private DataGridViewTextBoxColumn name;
         private DataGridViewTextBoxColumn address;
         private DataGridViewTextBoxColumn salary;
-
+        private DataGridViewTextBoxColumn ID;
     }
 }
