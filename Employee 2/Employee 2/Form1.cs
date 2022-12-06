@@ -126,9 +126,11 @@ namespace Employee_2
         private void button5_Click(object sender, EventArgs e)
         {
             DataGridViewRow data = dataGridView1.CurrentRow;
+           
             string name = data.Cells["name"].Value.ToString();
             string address = data.Cells["address"].Value.ToString();
             string salary = data.Cells["salary"].Value.ToString();
+            string id = data.Cells["id"].Value.ToString();
             MessageBox.Show("Selected name: " + name); 
             MessageBox.Show("Selected address: " + address);
             MessageBox.Show("Selected salary: " + salary);
@@ -136,6 +138,7 @@ namespace Employee_2
             txtUserName.Text = name;
             txtUserAddr.Text = address;
             txtUserSalary.Text = salary;
+            txtUserID.Text = id;
 
         }
     }
