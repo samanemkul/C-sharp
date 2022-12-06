@@ -5,7 +5,7 @@ namespace Employee_2
 {
     public partial class Form1 : Form
     {
-        private SqlConnection con = new SqlConnection(@"Data Source = DESKTOP-M895AMJ\SQLEXPRESS;
+        private SqlConnection con = new SqlConnection(@"Data Source = .\SQLEXPRESS;
                                                 Initial Catalog=emp_details;
                                                 Integrated Security=True");
         public Form1()
@@ -121,6 +121,11 @@ namespace Employee_2
                 string salary = table.Rows[i]["salary"].ToString ();
                 dataGridView1.Rows.Add(sn++, name, address, salary);
             }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
